@@ -8,13 +8,18 @@ function App() {
 
   function addCount(){
     setcount(Count+1)
-    console.log(Count);
+  }
+
+  let obj = {
+    title:'1st Counter',
+    Count
   }
 
   return (
     <div>
       <button onClick={addCount} >Add</button>
-      <Counter Count={Count} />
+      <Counter {...obj} />
+      <Counter title='2nd counter' Count={Count} />
     </div>
     
     );
