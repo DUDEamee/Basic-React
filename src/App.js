@@ -12,7 +12,7 @@ function App() {
 
   let obj = {
     title:'1st Counter',
-    Count
+    Count,
   }
 
   return (
