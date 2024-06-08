@@ -15,12 +15,12 @@ function App() {
     Count,
   }
 
-  return (
-    <div>
-      <button onClick={addCount} >Add</button>
-      <Counter {...obj} />
-      <Counter title='2nd counter' Count={Count} />
-    </div>
+   return (
+     <div>
+       <button onClick={addCount} >Add</button>
+       <Counter {...obj}/>
+       <Counter title='2nd counter' Count={Count} />
+     </div>
     
     );
 }
